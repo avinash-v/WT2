@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<!--
+	Monochromed by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>We gettin' LIT!</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+		<link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet">
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="{{url_for('static', filename='js/skel.min.js')}}"></script>
+		<script src="{{url_for('static', filename='js/skel-panels.min.js')}}"></script>
+		<script src="{{url_for('static', filename='js/init.js')}}"></script>
+		<noscript>
+			<link rel="stylesheet" href="{{url_for('static', filename='css/skel-noscript.css')}}" />
+			<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body>
+
+	<!-- Header -->
+		<div id="header" style="position: relative; background:url(../static/images/header.jpg); background-size: cover;">
+			<div class="container">
+					
+				<!-- Logo -->
+					<div id="logo">
+						<h1><a href="#">QUEST FOR ANSWERS</a></h1>
+						<span>Design by CRV</span>
+					</div>
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li class="active"><a href="onecolumn.html">Click Here for your Answers</a></li>
+						</ul>
+					</nav>
+
+			</div>
+		</div>
+	<!-- Header -->
+			
+	<!-- Main -->
+		<div id="main" style="position: relative; background: #fff url(../static/images/overlay.png) repeat">
+			<div class="container">
+				<div class="row">
+
+					<!-- Content -->
+						<div id="content" class="12u skel-cell-important">
+							<section>
+								<header>
+									<h2>Upload Your File</h2>
+									<span class="byline">Make sure your file is a readable document</span>
+								</header>
+								<p><input type="file" class="filepond"></p>
+								<script src="https://unpkg.com/filepond/dist/filepond.js"></script>
+  								<script>
+  									FilePond.parse(document.body);
+  								</script>
+							</section>
+						</div>
+					<!-- /Content -->
+						
+				</div>
+			
+			</div>
+		</div>
+	<!-- Main -->
+
+	<!-- Footer -->
+		<div id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="3u">
+						<section>
+							<ul class="style1">
+								<li><img src="{{url_for('static', filename='images/pics05.jpg')}}" width="78" height="78" alt="">
+									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
+									<p class="posted">August 11, 2014  |  (10 )  Comments</p>
+								</li>
+								<li><img src="{{url_for('static', filename='images/pics06.jpg')}}" width="78" height="78" alt="">
+									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
+									<p class="posted">August 11, 2014  |  (10 )  Comments</p>
+								</li>
+								<li><img src="{{url_for('static', filename='images/pics07.jpg')}}" width="78" height="78" alt="">
+									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
+									<p class="posted">August 11, 2014  |  (10 )  Comments</p>
+								</li>
+							</ul>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<ul class="style1">
+								<li class="first"><img src="{{url_for('static', filename='images/pics08.jpg')}}" width="78" height="78" alt="">
+									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
+									<p class="posted">August 11, 2014  |  (10 )  Comments</p>
+								</li>
+								<li><img src="{{url_for('static', filename='images/pics09.jpg')}}" width="78" height="78" alt="">
+									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
+									<p class="posted">August 11, 2014  |  (10 )  Comments</p>
+								</li>
+								<li><img src="{{url_for('static', filename='images/pics10.jpg')}}" width="78" height="78" alt="">
+									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
+									<p class="posted">August 11, 2014  |  (10 )  Comments</p>
+								</li>
+							</ul>
+						</section>				
+					</div>
+					<div class="6u">
+						<section>
+							<header>
+								<h2>About the project</h2>
+							</header>
+							<p>Web Technologies 2 course project comprising of various aspects or functionalities such as</p>
+							<ul class="default">
+								<div class="btn white darken-4 col s10 m4">
+									<a href="{{auth_url}}" style="text-transform:none">
+										<div class="left">
+											<img width="20px" alt="Google &quot;G&quot; Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"/>
+										</div>
+										Login with Google
+									</a>
+							   </div>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- Footer -->
+
+	<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+			</div>
+		</div>
+
+	</body>
+</html>
